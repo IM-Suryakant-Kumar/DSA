@@ -1,1 +1,3 @@
-# 2-D ARRAYS QUESTIONS
+# **2D ARRAYS QUESTIONS**
+
+1. **2D Arrays Input Output**
