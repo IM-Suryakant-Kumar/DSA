@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GradingSystem {
+public class _002GradingSystem {
     public static void main(String[] args) {
         // input - don't change this code
         Scanner scn = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fibboTillN {
+public class _005fibboTillN {
     public static void main(String[] args) {
         // write your code here
         Scanner scn = new Scanner(System.in);

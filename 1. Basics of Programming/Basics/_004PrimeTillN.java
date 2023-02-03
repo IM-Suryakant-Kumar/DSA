@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeTillN {
+public class _004PrimeTillN {
     public static void main(String[] args) {
         // write your code here
         Scanner scn = new Scanner(System.in);

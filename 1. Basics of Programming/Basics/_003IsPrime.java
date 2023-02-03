@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IsPrime {
+public class _003IsPrime {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 

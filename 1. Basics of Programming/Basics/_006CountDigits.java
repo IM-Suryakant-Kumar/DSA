@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CountDigits {
+public class _006CountDigits {
     public static void main(String[] args) {
         // write your code here
         Scanner sc = new Scanner(System.in);
