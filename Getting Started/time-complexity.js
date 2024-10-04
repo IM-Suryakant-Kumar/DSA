@@ -43,8 +43,8 @@ function someFunction(n) {
 
 // Q5.
 function someFunction(n) {
-	for (var i = 1; i < n; i * 2) {
-		console.log(n);
+	for (var i = 1; i < n; i *= 2) {
+		console.log(i);
 	}
 }
 // O(log2n)
