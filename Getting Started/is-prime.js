@@ -10,3 +10,12 @@ function isPrime(num) {
 
 	return true;
 }
+
+// time-complexity: O(sqrt(n))
+
+console.log(isPrime(2))
+console.log(isPrime(3))
+console.log(isPrime(5))
+console.log(isPrime(8))
+console.log(isPrime(10))
+console.log(isPrime(15))
