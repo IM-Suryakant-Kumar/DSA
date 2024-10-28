@@ -1,6 +1,7 @@
 # Data structure and algorithms
-## Basic
-  - Getting Starte - I/O, loops, conditions, data type
+
+## Basic 
+  - Getting Started 
   - Pattern
   - Number System
   - Arrays and Functions
@@ -10,7 +11,8 @@
 ## Recursion
   - Recurssion
   - Time & Space complexity
-  - Dynamic Programming -
+  - Dynamic Programming
+  - Object-Oriented Programming
 ## Basic DS
   - Stacks - Queues
   - LinkedList
