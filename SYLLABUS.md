@@ -19,7 +19,6 @@
   - Generic tree 
   - Binary Tree 
   - Binary Search Tree
-    
 ## Advanced DS
   - Hashmap & Heap
   - Graphs
