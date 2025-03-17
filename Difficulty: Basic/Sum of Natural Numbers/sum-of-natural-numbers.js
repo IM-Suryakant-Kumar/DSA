@@ -43,6 +43,6 @@ class Solution {
     */
     seriesSum(n) {
         // code here
-        return n * (n + 1) / 2
+        return n % 2 === 0 ? (n / 2) * (n + 1) : ((n + 1) / 2) * n;
     }
 }
