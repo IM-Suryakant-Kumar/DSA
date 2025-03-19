@@ -50,12 +50,19 @@ class Solution {
     closestNumber(n, m) {
 
         // code here
-        const q = parseInt(n / m);
-        const n1 = q * m;
-        const n2 = (n * m) > 0 ? (q + 1) * m : (q - 1) * m;
+        let closest = 0, minDiff = Infinity;
+    
+        for(let i = n - Math.abs(m); i <= n + Math.abs(m); i++) {
+            if(i % m === 0) {
+                let diff = Math.abs(n - i);
+                
+                if(diff < minDiff || (diff === minDiff && Math.abs(i) > Math.abs(closest))) {
+                    closest = i;
+                    minDiff = diff;
+                }
+            }
+        }
         
-        if(Math.abs(n - n1) < Math.abs(n - n2)) return n1;
-        
-        return n2;
+        return closest;
     }
 }
